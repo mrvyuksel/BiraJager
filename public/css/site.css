@@ -1,0 +1,33 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+aside,.main-container{
+    display: inline-block;
+}
+aside {
+    float: left;
+    width:220px;
+    height: 100%;
+    background-color:#434a54 ;
+    margin: 0;
+    padding: 0 !important;
+}
+
+aside  .list-group {
+    border-radius: 0;
+}
+
+aside a.list-group-item {
+    background-color: #434a54;
+    color:#fff;
+    border-radius: 0;
+    border: none;
+}
+
+aside .list-group-item:first-child {
+    border-radius: 0;
+}
+aside .list-group-item:last-child {
+    border-radius: 0;
+}
