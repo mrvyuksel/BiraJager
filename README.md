@@ -1,2 +1,6 @@
 # BiraJager
-Javascript logger  (NodeJs - Mongo - Angular2 - TypeScript)
+Javascript logger  (NodeJs - ExpressJs)
+
+To start server : run command below
+
+cmd: forever start ./bin/www
