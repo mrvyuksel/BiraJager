@@ -32,7 +32,7 @@ var options ={
     colorize: 'true',
     filename:  process.cwd() +'/winstonLogs/dailyLog',
     datePattern: '_yyyy-MM-dd.log',
-    maxsize: 20000
+    maxsize: 1048576
 };
 
 logger.add(require('winston-daily-rotate-file'), options);
